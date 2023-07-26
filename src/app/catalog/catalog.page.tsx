@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { memo } from "react";
 
-const CatalogPage: FC = () => {
+const CatalogPage = memo(() => {
   return <section>CATALOG PAGE</section>;
-};
+});
 
 export default CatalogPage;
