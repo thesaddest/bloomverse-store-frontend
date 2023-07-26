@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { memo } from "react";
 
-const CartPage: FC = () => {
+const CartPage = memo(() => {
   return <section>CART PAGE</section>;
-};
+});
 
 export default CartPage;
